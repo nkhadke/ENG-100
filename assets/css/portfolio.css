@@ -1,17 +1,36 @@
 @charset "utf-8";
 
-a{color:0x0000FF !important;}
-a:hover{color:0xFF3300 !important;}
-a:visited{color:0xFFCCCC !important;}
+a{
+	color: #0D0C0C !important;
+	font-size: 16px;
+}
+a:hover{color:#C93737 !important;}
+a:visited{color:#C0C0C0 !important;}
+
 
 .navbar
 {
-	float:left;
-	padding:5px;
-	margin-top:20px;
+	float: right;
+	text-align: center;
+	padding:15px;
+	margin-top:10px;
 	display:block;
+	width: 800px;
+	margin-right: 5px;
+	word-spacing: 40px;
+	font-family: Georgia;
+	background-image: url(navbar.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 30px;
 }
 
+.navlink
+{
+	color:#C93737;
+	font-size: 30px;
+	text-align: center;
+}
 .clearfix
 {
 	clear:both;
@@ -32,12 +51,50 @@ a:visited{color:0xFFCCCC !important;}
 
 .body-center
 {
-	width: 700px ;
-	margin-left: auto ;
-	margin-right: auto ;
+	width: 1200px ;
 }
 
 #profile-picture
 {
 	margin-left: 20px;
+}
+
+.heading
+{
+	margin-top: 80px;
+	font-family: sans-serif;
+	
+}
+h1
+{
+	color: #FFFFFF;
+	text-align: center;
+	outline-color: #0D0C0C;
+	font-size: 80px;
+}
+h2
+{
+	color: #E48526;
+	text-align: center;
+	outline-color: #0D0C0C;
+	font-size: 40px;
+}
+.background
+{
+	background-image: url(technology.jpg);
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	background-size: 100%;
+}
+b
+{
+	color: #0D0C0C;
+}
+
+.contact
+{
+	color: #FFFFFF;
+	font-size: 20px;
 }
